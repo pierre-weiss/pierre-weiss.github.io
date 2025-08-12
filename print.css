@@ -1,0 +1,11 @@
+/*
+Print layout for original design: andreas02 (v3.0 - Apr 24, 2008) - A free xhtml/css website template by Andreas Viklund.
+For more information, see http://andreasviklund.com/templates/andreas02/
+*/
+
+body {margin:0 auto; padding:0; font-family:"Times New Roman",Serif; background:#ffffff; color:#000000;}
+#container {margin:2%; width:auto; float:none !important;}
+#main {float:none !important;}
+#logo h1 {margin:0 0 10px 0;}
+#toptabs, #navitabs, #sidebar, .hide {display:none;}
+a {text-decoration:underline; color:#0000FF;}

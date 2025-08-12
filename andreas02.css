@@ -1,0 +1,71 @@
+/*
+Original design: andreas02 (v3.0 - Apr 24, 2008) - A free xhtml/css website template by Andreas Viklund.
+For more information, see http://andreasviklund.com/templates/andreas02/
+*/
+
+/* General layout */
+body {background:#e0e0e0; color:#303030; font:76% tahoma, verdana, sans-serif; margin:0; padding:15px 0 0;}
+#container {background:#fff; margin:0 auto 20px; padding:5px 20px 20px; width:730px;}
+
+/* Site title */
+#logo {margin:15px 0 0;}
+#logo h1 a {border:none; color:#505050;}
+#logo h1 a:hover {border:none; color:#303030; text-decoration:none;}
+#logo p {font-size:1.3em;  color:#505050; margin:0 0 20px 0;}
+
+/* Tags */
+a {border-bottom:1px dotted #505050; color:#303030; text-decoration:none;}
+a:hover {border-bottom:1px solid #505050; color:#303030; text-decoration:none;}
+a img {border:0;}
+h1 {font-size:2.2em; font-weight:400; margin:0 0 5px; padding:0;}
+h2 {font-size:1.8em; font-weight:400; margin:0 0 12px;}
+h3 {font-size:1.4em; font-weight:400; margin:0 0 10px;}
+p {line-height:1.5em; margin:0 0 15px; text-align:left;}
+ul,ol {margin:0 0 15px 15px; padding:0;}
+li {margin:0 0 3px 0;}
+
+/* Toptabs menu */
+#toptabs {font-size:.8em; margin:10px auto -13px; width:760px;}
+#toptabs p {color:gray; text-align:right;}
+.toptab {background:#f0f0f0 url(images/corner2.gif) top right no-repeat; border-bottom:1px solid #e0e0e0; color:gray; margin:0 0 0 4px; padding:4px 5px 3px; text-decoration:none;}
+.toptab:hover {background:#fafafa url(images/corner2.gif) top right no-repeat; border-bottom:1px solid #eaeaea; color:#505050; text-decoration:none;}
+.activetoptab {background:#fff url(images/corner2.gif) top right no-repeat; border-bottom:1px solid #fff; color:#505050; margin:0 0 0 4px; padding:4px 5px 3px; text-decoration:none;}
+.activetoptab:hover {border-bottom:1px solid #fff; text-decoration:none;}
+
+/* Navitabs menu */
+#navitabs {clear:both;}
+.navitab {background:#e0e0e0 url(images/corner.gif) top right no-repeat; border-bottom:1px solid #fff; border-left:1px solid #fff; font-size:1.1em; margin:0 0 4px; padding:4px 8px; text-decoration:none;}
+.navitab:hover {background:#d0d0d0 url(images/corner.gif) top right no-repeat; border-bottom:1px solid #fff; text-decoration:none;}
+.activenavitab {background:#505050 url(images/corner.gif) top right no-repeat; color:#fff; font-size:1.1em; margin:0 0 5px; padding:4px 8px 5px; text-decoration:none;}
+.activenavitab:hover {color:#fff; text-decoration:none;}
+
+/* Header description area */
+#desc {background:#505050 url(images/front.jpg) bottom left repeat-y; clear:both; color:#fff; /* height:200px; */ margin:5px 0 15px; padding:0 0 5px 0;}
+#desc p {font-size:1em; line-height:1.3em; padding:0 0 0 15px; width:290px;}
+#desc h2 {color:#fff; padding:15px 15px 0;}
+#desc a {border-color:#fff; color:#fff; text-decoration:none;}
+
+/* Main content */
+#main {border-right:1px solid #d8d8d8; float:left; margin:0; padding:0 15px 0 0; width:550px;}
+
+/* Sidebar */
+#sidebar {float:right; width:150px;}
+#sidebar p {font-size:0.9em; line-height:1.3em; margin:0 0 15px;}
+#sidebar ul {margin:0 0 15px 0; padding:0;}
+#sidebar li {list-style:none;}
+ul.sidelink li {list-style:none; margin:0 0 3px; padding:0;}
+ul.sidelink li a{background:#f0f0f0 url(images/corner.gif) top right no-repeat; border:none; display:block; margin:5px 10px 5px 0; padding:3px 4px 3px 8px; text-align:left; width:140px;}
+ul.sidelink li a:hover {background:#e0e0e0 url(images/corner.gif) top right no-repeat; border:none; text-decoration:none;}
+
+/* Footer */
+#footer {background:#fff; border-top:1px solid #d8d8d8; clear:both; margin:0; padding:0;}
+#footer a {color:gray;}
+#footer a:hover {color:#303030;}
+#footer p {color:gray; font-size:1.1em; line-height:1.3em; margin:15px 0 0; padding:0;}
+
+/* Additional classes */
+.photo {background-color:#f0f0f0; border:1px solid #d8d8d8; margin:0 0 15px; padding:2px;}
+.timestamp {font-size:1.2em; color:#606060; margin:-12px 0 12px 0;}
+.right {margin:-8px 0 8px 0; text-align:right;}
+.block {background:#f0f0f0; padding:10px;}
+.hide {display:none;}
